@@ -3,6 +3,10 @@ package de.Kurfat.Java.SimpleWebserver;
 public class Start {
 	
 	public static void main(String[] args) {
+		if(args.length == 0 || args[0].equalsIgnoreCase("help") || args[0].equalsIgnoreCase("?")) {
+			System.out.println("Example: <command> -dir <pathToDirectory> -port <serverport> -filename <index.html or another> -debug <true/false>");
+			return;
+		}
 		Integer port = 8080;
 		String dir = null;
 		String fileName = "index.html";
