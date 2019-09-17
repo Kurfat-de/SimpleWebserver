@@ -12,16 +12,6 @@ import java.util.StringTokenizer;
 
 public class HttpHeader {
 	
-//	[17:15:06]GET /0TT0-B0T/Command/Testasd HTTP/1.1
-//	[17:15:06]Host: mineclan.eu
-//	[17:15:06]User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
-//	[17:15:06]Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-//	[17:15:06]Accept-Language: de,en-US;q=0.7,en;q=0.3
-//	[17:15:06]Accept-Encoding: gzip, deflate
-//	[17:15:06]Connection: keep-alive
-//	[17:15:06]Upgrade-Insecure-Requests: 1
-//	[17:15:06]Cache-Control: max-age=0
-	
 	private String type;
 	private String path;
 	private String protocol;
